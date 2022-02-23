@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <Title>Contato</Title>
+    <link rel="stylesheet" type="text/css" href="../CSS/EstilosCSS.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header id="menu">
+        <nav class="navbar navbar-expand-lg">
+            <a class="logo" class="navbar-brand" href="./Index.html"><img src="../Imagens/TransCarreira.png"
+                    alt="Logomarca"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./QuemSomos.html">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./VagasEmprego.html">Vagas de emprego</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./EmpresasTransFriendly.html">Empresas TransFriendly</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Cursos.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <div class="vagas_titulo my-5">
+                <h2>Entre em contato</h2>
+            </div>
+        </section>
+
+        <form>
+            <div class="container">
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Seu nome:</label>
+                    <br>
+                    <input type="text" class="formControlNome" id="nome" aria-describedby="nomeHelp" size="50">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputEmail1">E-mail:</label>
+                    <br>
+                    <input type="email" class="formControlEmail" id="email1" aria-describedby="emailHelp" size="50">
+                    <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu email com
+                        ninguém.</small>
+                </div>
+
+                <div class="form-group">
+                    <label for="FormControlTextarea1">Deixe sua mensagem aqui!</label>
+                    <textarea class="form-control" id="FormControlTextarea1" rows="3"></textarea>
+                </div>
+
+                <button id="formBotao" type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+
+    </main>
+
+    <footer>
+
+
+        <div>
+            <!--<img src="../Imagens/recode.jpeg" alt="Logo Recode">-->
+            <img src="../Imagens/TransCarreira.png" alt="Logo TransCarreira">
+            <div>
+                <p id="pFot">Copyright &copy; 2022 - by Squad 15</p>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
