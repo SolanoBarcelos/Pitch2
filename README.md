@@ -8,7 +8,7 @@
 
 #### A plataforma TransCarreira propoem um ambiente on line onde pessoas trans possam se qualificar e conectar-se a ao mercado de trabalho, e empresas que ja possuem boas praticas de diversidade e inclusão.
 
-#### Tecnologias Utilizadas.
+#### Tecnologias Utilizadas:
 
 - HTML
 - CSS
